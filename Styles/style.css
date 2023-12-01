@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../Assets/OpenSans-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Open Sans Medium';
+    src: url(../Assets/OpenSans-Medium.ttf);
+}
+
+@font-face{
+    font-family: 'Open Sans Bold';
+    src: url(../Assets/OpenSans-Bold.ttf);
+}
+
+*{ 
+    background-color: #183661;
+    margin: 0;
+    font-family: 'Open Sans', 'Open Sans Medium', 'Open Sans Bold';
+}
+
+.navbar{
+    background-color: #1C4B82;
+    overflow: hidden;
+}
+
+.navbar a{
+    background-color: #1C4B82;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    ;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right; /* Float a link to the right */
+    }
+
+.navbar a:hover {
+    color: orange; /* Black text color */
+}
+
+#navbar_name {
+    background-color: #1C4B82;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+
+#navbar_img{
+    background-color: #1C4B82;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+
