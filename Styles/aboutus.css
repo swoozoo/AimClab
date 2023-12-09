@@ -1,0 +1,80 @@
+@font-face{
+    font-family: 'Karla';
+    src: url(../Assets/Karla-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url(../Assets/7NeutralGrotesk-Regular.ttf);
+}
+
+*{ 
+    background-color: white;
+    margin: 0;
+    font-family: 'Karla';
+}
+
+/* bagian navbar */
+
+.navbar{
+    background-color: #1C4B82;
+    overflow: hidden;
+}
+
+.navbar a{
+    background-color: #1C4B82;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    ;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+    }
+
+.navbar a:hover {
+    color: orange;
+}
+
+#navbar_name {
+    background-color: #1C4B82;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+}
+
+#navbar_img{
+    background-color: #1C4B82;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* bagian content page */
+
+.aboutus{
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutus-header {
+    font-size: 20pt;
+    margin-bottom: 14pt;
+}
+
+.aboutus-content p{
+    font-size: 14pt;
+    line-height: 2;
+    text-indent: 50px;
+    margin-bottom: 14pt;
+    text-align: justify;
+}
+
+/* bagian footer */

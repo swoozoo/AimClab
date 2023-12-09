@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'Karla';
+    src: url(../Assets/Karla-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url(../Assets/7NeutralGrotesk-Regular.ttf);
+}
+
+*{ 
+    background-color: #f2f2f3;
+    margin: 0;
+    font-family: 'Karla';
+}
+
+/* navbar */
+
+.navbar{
+    overflow: hidden;
+}
+
+.navbar a{
+    color: black;
+    padding: 15px 20px;
+    font-size: 16pt;
+    display: flex;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right; 
+}
+
+.navbar a:hover {
+    color: gray;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+#navbar_name {
+    color: black;
+    padding: 15px 20px;
+    display: flex;
+    float: left;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#navbar_img{
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* bagian content page */
+
+.menu-content{
+    padding: 30px;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+.menu-section-odd{
+    margin-bottom: 50px;
+    font-size: 20pt;
+    margin: 80px 10px 50px 40px;
+}
+
+.menu-section-even{
+    margin-bottom: 50px;
+    font-size: 20pt;
+}
+
+.menu-subsection{
+    font-family: 'Grotesk';
+    font-size: 30pt;
+    margin-bottom: 15pt;
+}
+
+.link-to a{
+    color: black;
+    font-size: 18pt;
+}
+
+.link-to a:hover{
+    text-decoration: none;
+}
+
+/* bagian footer */
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email, .social-media .copyright {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: inline-block;
+    height: 25px;
+}
+
+p {
+    margin: 0;
+}
